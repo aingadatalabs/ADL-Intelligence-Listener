@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: adl-core-engine
+Version: 0.1.0
+Summary: Shared schemas, database base, and scraping infrastructure.
+Requires-Python: >=3.11
+Requires-Dist: pydantic>=2.10.6
+Requires-Dist: sqlalchemy>=2.0.38

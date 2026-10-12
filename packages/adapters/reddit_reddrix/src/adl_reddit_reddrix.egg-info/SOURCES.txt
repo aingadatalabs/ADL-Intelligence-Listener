@@ -1,0 +1,8 @@
+pyproject.toml
+src/adl_reddit_reddrix.egg-info/PKG-INFO
+src/adl_reddit_reddrix.egg-info/SOURCES.txt
+src/adl_reddit_reddrix.egg-info/dependency_links.txt
+src/adl_reddit_reddrix.egg-info/requires.txt
+src/adl_reddit_reddrix.egg-info/top_level.txt
+src/reddit_reddrix/__init__.py
+src/reddit_reddrix/adapter.py

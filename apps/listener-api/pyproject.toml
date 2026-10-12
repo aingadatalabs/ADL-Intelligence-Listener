@@ -1,0 +1,18 @@
+[project]
+name = "adl-listener-api"
+version = "0.1.0"
+description = "FastAPI control plane for the ADL intelligence listener."
+requires-python = ">=3.11"
+dependencies = [
+    "adl-core-engine",
+    "adl-reddit-reddrix",
+    "fastapi>=0.115.12",
+    "uvicorn[standard]>=0.34.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

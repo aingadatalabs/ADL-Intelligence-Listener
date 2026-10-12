@@ -1,0 +1,29 @@
+[tool.uv.workspace]
+members = [
+    "apps/listener-api",
+    "packages/core-engine",
+    "packages/adapters/reddit_reddrix",
+    "packages/adapters/linkedin_scraper",
+    "workers/celery_worker",
+]
+
+[tool.uv.sources]
+adl-core-engine = { workspace = true }
+adl-reddit-reddrix = { workspace = true }
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=8.3.5",
+    "ruff>=0.11.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

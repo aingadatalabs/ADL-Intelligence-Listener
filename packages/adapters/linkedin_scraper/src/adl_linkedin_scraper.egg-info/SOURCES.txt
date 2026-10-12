@@ -1,0 +1,7 @@
+pyproject.toml
+src/adl_linkedin_scraper.egg-info/PKG-INFO
+src/adl_linkedin_scraper.egg-info/SOURCES.txt
+src/adl_linkedin_scraper.egg-info/dependency_links.txt
+src/adl_linkedin_scraper.egg-info/requires.txt
+src/adl_linkedin_scraper.egg-info/top_level.txt
+src/linkedin_scraper/__init__.py

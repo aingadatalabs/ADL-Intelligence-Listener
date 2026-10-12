@@ -1,0 +1,17 @@
+[project]
+name = "adl-celery-worker"
+version = "0.1.0"
+description = "Celery application and scraping task definitions."
+requires-python = ">=3.11"
+dependencies = [
+    "adl-core-engine",
+    "adl-reddit-reddrix",
+    "celery[redis]>=5.4.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

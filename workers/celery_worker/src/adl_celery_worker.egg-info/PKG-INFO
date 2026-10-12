@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: adl-celery-worker
+Version: 0.1.0
+Summary: Celery application and scraping task definitions.
+Requires-Python: >=3.11
+Requires-Dist: adl-core-engine
+Requires-Dist: celery[redis]>=5.4.0

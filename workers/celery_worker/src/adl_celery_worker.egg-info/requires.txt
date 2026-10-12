@@ -1,0 +1,2 @@
+adl-core-engine
+celery[redis]>=5.4.0

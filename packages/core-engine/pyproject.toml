@@ -1,0 +1,16 @@
+[project]
+name = "adl-core-engine"
+version = "0.1.0"
+description = "Shared schemas, database base, and scraping infrastructure."
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.10.6",
+    "sqlalchemy>=2.0.38",
+]
+
+[build-system]
+requires = ["setuptools>=75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

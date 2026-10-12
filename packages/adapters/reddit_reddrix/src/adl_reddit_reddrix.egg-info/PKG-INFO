@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: adl-reddit-reddrix
+Version: 0.1.0
+Summary: Reddit scraping adapter adapted to the core listener schema.
+Requires-Python: >=3.11
+Requires-Dist: adl-core-engine

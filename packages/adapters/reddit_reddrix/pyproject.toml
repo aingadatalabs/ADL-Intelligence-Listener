@@ -1,0 +1,16 @@
+[project]
+name = "adl-reddit-reddrix"
+version = "0.1.0"
+description = "Reddit scraping adapter adapted to the core listener schema."
+requires-python = ">=3.11"
+dependencies = [
+    "adl-core-engine",
+    "reddrix",
+]
+
+[build-system]
+requires = ["setuptools>=75.8.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
